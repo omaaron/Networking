@@ -38,6 +38,7 @@ public class UDPClient {
 
                 String responseMessage = new String(buffer, 0, responseDataGram.getLength());
 
+
                 System.out.println(responseMessage);
 //                System.out.println();
 
